@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "509356440116",
+    "project_id": "tugas-akhir-aplikasi-bergerak",
+    "storage_bucket": "tugas-akhir-aplikasi-bergerak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509356440116:android:0a2882761e534a934e2861",
+        "android_client_info": {
+          "package_name": "com.scranaver.valorantmapguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509356440116-aa3lj4pqc2tvudd9ihor9mub9vtmv5e9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scranaver.valorantmapguide",
+            "certificate_hash": "65c4751c7b8f8c7e917488f2dabd10f46a65ab6a"
+          }
+        },
+        {
+          "client_id": "509356440116-to4s1r6vlh4laha6bqtvcurmh177m7er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7w0vqOdfTGBOXmZPNzXK2WnUX5CL3Hxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509356440116-to4s1r6vlh4laha6bqtvcurmh177m7er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

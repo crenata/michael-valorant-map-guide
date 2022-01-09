@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Valorant Map Guide</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="prompt_login">Login</string>
+    <string name="prompt_register">Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_phone">Phone</string>
+    <string name="prompt_tos">Dengan masuk atau daftar, kamu udah setuju sama Ketentuan Layanan dan Kebijakan Privasi.</string>
+    <string name="prompt_title">Title</string>
+    <string name="prompt_content">Content</string>
+
+    <string name="action_sign_in">Already have an account? Sign In</string>
+    <string name="action_sign_up">Don`t have an account? Sign Up</string>
+    <string name="action_forgot_password">Forgot Password?</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="action_sign_up_short">Sign Up</string>
+    <string name="action_add_note">Add</string>
+
+    <string name="welcome">Welcome !</string>
+
+    <string name="success">Successfully !</string>
+    <string name="error">Whoops, something went wrong !</string>
+
+    <string name="check_email_verify">Check your email to verify your account !</string>
+    <string name="check_email_reset">Successfully sent, check your email !</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="learn">Learn How To Use Each Agents on Every Map</string>
+</resources>
