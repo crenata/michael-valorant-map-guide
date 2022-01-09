@@ -28,6 +28,7 @@ import com.scranaver.valorantmapguide.data.Constants
 import com.scranaver.valorantmapguide.databinding.FragmentDashboardBinding
 import com.scranaver.valorantmapguide.ui.dashboard.rank.Rank
 import com.scranaver.valorantmapguide.ui.dashboard.rank.RankAdapter
+import com.scranaver.valorantmapguide.ui.login.LoginActivity
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -63,6 +64,8 @@ class DashboardFragment : Fragment() {
     private lateinit var newRankInformationEditText: EditText
     private lateinit var saveRankInformationButton: Button
 
+    private lateinit var logoutButton: Button
+
     private var rankList = ArrayList<Rank>()
     private lateinit var rankAdapter: RankAdapter
 
@@ -83,6 +86,13 @@ class DashboardFragment : Fragment() {
             swipeRefreshLayout.isRefreshing = true
             getProfile()
             getRankHistory()
+        }
+
+        logoutButton = binding.logout
+        logoutButton.setOnClickListener {
+            Firebase.auth.signOut()
+            startActivity(Intent(context, LoginActivity::class.java))
+            activity?.finish()
         }
 
         imageProfile = binding.profile.imageProfile
